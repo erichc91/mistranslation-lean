@@ -1,0 +1,10 @@
+name = "mistranslation"
+defaultTargets = ["Mistranslation"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "625d8914199bc567cca9b91f90e8e5afafa5ae51"
+
+[[lean_lib]]
+name = "Mistranslation"
